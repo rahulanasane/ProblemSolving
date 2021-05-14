@@ -14,8 +14,15 @@ namespace ProblemSolving
 {
     public class ProductOf2ConsecutiveInt
     {
+        private int int1;
+        private int int2;
+
         public ProductOf2ConsecutiveInt()
         {
+            this.int1 = 6;
+            this.int2 = 20;
+
+            Console.WriteLine(Solution(int1, int2));
         }
 
         public int Solution(int A, int B)
