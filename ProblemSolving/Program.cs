@@ -6,10 +6,13 @@ namespace ProblemSolving
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            #region ProductOf2ConsecutiveInt
+            //ProductOf2ConsecutiveInt obj = new ProductOf2ConsecutiveInt();
+            #endregion ProductOf2ConsecutiveInt
 
-            ProductOf2ConsecutiveInt obj = new ProductOf2ConsecutiveInt();
-            Console.WriteLine(obj.Solution(6, 20));
+            #region AdditionalOfBinanry
+            AdditionalOfBinanry addBinary = new AdditionalOfBinanry();
+            #endregion AdditionalOfBinanry
         }
     }
 }
